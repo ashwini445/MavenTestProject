@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vedha.demooops.DemoOops"/>
+      <class name="com.vedha.demotestng.Car"/>
+    <class name="com.vedha.test.NewTest"/>
+      <class name="com.vedha.demotestng.Day1"/>
+      <class name="com.vedha.demotestng.BeforeMeth"/>
+      <class name="com.vedha.demotestng.SoftwareCompany"/>
+      <class name="com.vedha.demotestng.Department"/>
+      <class name="com.vedha.demotestng.Groups"/>
+      <class name="com.vedha.demotestng.Shape"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

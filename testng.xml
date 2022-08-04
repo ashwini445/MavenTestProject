@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="Loan department">
+  <!--<test thread-count="5" name="personal loan">
+    <classes>
+      <class name="com.vedha.demotestng.Day1">
+      <methods>
+       <include name="day2"/>
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="shape">
+    <classes>
+      <class name="com.vedha.demotestng.Shape">
+      </class>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="Department">
+    <classes>
+      <class name="com.vedha.demotestng.Department">
+      </class>
+    </classes>
+  </test> 
+  
+  <test name="SoftwareCompany">
+  <groups>
+  <run>
+  <include name="software company"/>
+  </run>
+  </groups>
+  <classes>
+   <class name="com.vedha.demotestng.SoftwareCompany"/>
+  </classes>
+  </test>
+  
+  <test name="car loan">
+  <classes>
+      <class name="com.vedha.demotestng.Car">
+      <methods>
+       <exclude name="WebLoginHomeLoan"/>
+      </methods>
+      </class>
+    </classes>
+  </test>-->
+</suite> <!-- Suite -->
+
