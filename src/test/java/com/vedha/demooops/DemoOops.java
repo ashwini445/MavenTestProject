@@ -9,11 +9,11 @@ import java.util.Formatter;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import com.vedha.inheritanceconcepts.DogSpan;
 import com.vedha.sampleinheritance.AbstractCircle;
 import com.vedha.sampleinheritance.BabyDog;
 import com.vedha.sampleinheritance.Display;
 import com.vedha.sampleinheritance.Dog;
+import com.vedha.sampleinheritance.DogSpan;
 import com.vedha.sampleinheritance.EncapStudentInfo;
 import com.vedha.sampleinheritance.PolyOverloading;
 import com.vedha.sampleinheritance.ReverseString;
@@ -28,7 +28,7 @@ public class DemoOops {
 @Test(description = "single inheritance :: Here subclass inherit the properties of super class",priority=1,groups="inheritance concepts" )
 	public void demoInheritance()
 	{
-	Dog details=new  Dog("Husky", 30, "barking");
+	Dog details=new  Dog("labo", 30, "barking");
 	details.bark();
 	}
 @Test(description = "multi level inheritance :: Here classes inherit the properties of other classes",priority=2,groups="inheritance concepts")
